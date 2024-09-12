@@ -5,15 +5,37 @@
 
 packages:
 - completed:
-    hackage: xml-conduit-writer-0.1.1.2@sha256:9a60e547fea9995df48a743a426ffe6c681b80fb3c3d8efc011035babda18308,1303
+    hackage: xml-conduit-writer-0.1.1.5@sha256:7b62f92e91d5f7c2c4440b2021d6b9309f9966598b110017b2cbcf3fcd1107df,1340
     pantry-tree:
+      sha256: c7d0658555a2bbef4fecac9b7763d1acef7eac63f52dd15096f266776b7ce37e
       size: 278
-      sha256: a57f63c472717400afac92da15311b661a30ab45002bd3d3239c2aa4a1b1eda1
   original:
-    hackage: xml-conduit-writer-0.1.1.2
+    hackage: xml-conduit-writer-0.1.1.5@sha256:7b62f92e91d5f7c2c4440b2021d6b9309f9966598b110017b2cbcf3fcd1107df,1340
+- completed:
+    commit: f83c571f235c1ef3aee275078b004c36234eb2a7
+    git: https://github.com/eir-forsakring/structural-xml
+    name: structural-xml
+    pantry-tree:
+      sha256: 46494a1d22736105887e3af9648694ce853df6547f048d88a375040028e14a3b
+      size: 781
+    version: 0.2.0.2
+  original:
+    commit: f83c571f235c1ef3aee275078b004c36234eb2a7
+    git: https://github.com/eir-forsakring/structural-xml
+- completed:
+    commit: cf3255a6f961ecfdb90579ff1cd39a42fe39d093
+    git: https://github.com/eir-forsakring/hs-connection
+    name: connection
+    pantry-tree:
+      sha256: 27918e23cb044ebe1b76754002a8fd6c5eb331bf68ffaac7f2eaab3a6dac53ba
+      size: 978
+    version: 0.3.1
+  original:
+    commit: cf3255a6f961ecfdb90579ff1cd39a42fe39d093
+    git: https://github.com/eir-forsakring/hs-connection
 snapshots:
 - completed:
-    size: 531237
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/16/0.yaml
-    sha256: 210e15b7043e2783115afe16b0d54914b1611cdaa73f3ca3ca7f8e0847ff54e5
-  original: lts-16.0
+    sha256: 98fe98dae6f42f9b4405e5467f62f57df2896c57b742a09772688c900c722510
+    size: 719579
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/22/29.yaml
+  original: lts-22.29

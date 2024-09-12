@@ -4,7 +4,8 @@
 #resolver: lts-10.9
 #resolver: lts-11.0
 #resolver: nightly-2020-03-10
-resolver: lts-16.0
+#resolver: lts-16.0
+resolver: lts-22.29
 
 packages:
 - soap/
@@ -15,4 +16,9 @@ packages:
 allow-newer: true
 
 extra-deps:
-- xml-conduit-writer-0.1.1.2
+  - xml-conduit-writer-0.1.1.5@sha256:7b62f92e91d5f7c2c4440b2021d6b9309f9966598b110017b2cbcf3fcd1107df,1340
+  - git: https://github.com/eir-forsakring/structural-xml
+    commit: f83c571f235c1ef3aee275078b004c36234eb2a7
+  - git: https://github.com/eir-forsakring/hs-connection
+    commit: cf3255a6f961ecfdb90579ff1cd39a42fe39d093
+
